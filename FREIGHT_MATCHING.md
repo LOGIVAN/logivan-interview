@@ -46,9 +46,9 @@ Ví dụ với một đơn có thông tin:
 ```
 và các bên vận tải: 
 ```json
-  [
-    [
-      "pickup_location": {
+  {
+    "locations": [
+      {
         "address": "Cảng Cái Lân, Bãi Cháy, Quảng Ninh",
         "lat": 1.10218,
         "lng": -1.123843,
@@ -65,8 +65,7 @@ và các bên vận tải:
         "lat": 1.10218,
         "lng": -1.123843,
         "radius": 500000
-      }
-    ], [
+      },
       {
         "address": "Hưng Yên, Việt Nam",
         "lat": 1.10218,
@@ -80,7 +79,7 @@ và các bên vận tải:
         "radius": 5000000
       }
     ]
-  ]
+  }
 ```
 
 ### Yêu cầu
